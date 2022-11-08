@@ -1,0 +1,4 @@
+baseURL = 'https://ijzr.nl/'
+languageCode = 'en-us'
+title = 'ijzr.nl'
+theme = 'paper'
