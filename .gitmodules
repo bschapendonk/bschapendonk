@@ -1,3 +1,3 @@
-[submodule "ijzr.nl/themes/paper"]
-	path = ijzr.nl/themes/paper
-	url = https://github.com/nanxiaobei/hugo-paper
+[submodule "ijzr.nl/themes/PaperMod"]
+	path = ijzr.nl/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
