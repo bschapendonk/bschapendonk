@@ -63,12 +63,12 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-        working-directory: ${GITHUB_WORKSPACE}/schapendonk.com
+        working-directory: schapendonk.com
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ${GITHUB_WORKSPACE}/schapendonk.com/public
+          path: schapendonk.com/public
 
   # Deployment job
   deploy:
