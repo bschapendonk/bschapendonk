@@ -44,7 +44,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ${GITHUB_WORKSPACE}/schapendonk.com/public/
+          path: ${GITHUB_WORKSPACE}/schapendonk.com/public
 
       - name: Deploy to GitHub Pages
         id: deployment
