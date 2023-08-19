@@ -1,0 +1,21 @@
+baseURL: https://bschapendonk.github.io/bschapendonk/
+languageCode: en-us
+title: schapendonk.com
+theme: PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    imageUrl: avatar.png
+    title: schapendonk.com
+    subtitle: Bart Schapendonk
+
+  socialIcons:
+    - name: github
+      url: https://github.com/bschapendonk
+    - name: linkedin
+      url: https://www.linkedin.com/in/bschapendonk/
+    - name: mastodon
+      url: https://mstdn.social/@bschapendonk
+    - name: twitter
+      url: https://twitter.com/bschapendonk
