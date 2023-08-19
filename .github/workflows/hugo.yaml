@@ -35,8 +35,8 @@ jobs:
         run: |
           curl -L -o ${RUNNER_TEMP}/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.117.0/hugo_extended_0.117.0_Linux-64bit.tar.gz
           tar -C ${RUNNER_TEMP} -zxvf ${RUNNER_TEMP}/hugo.tar.gz hugo
+          cd ${GITHUB_WORKSPACE}/schapendonk.com
           ${RUNNER_TEMP}/hugo
-        working-directory: schapendonk.com
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -44,7 +44,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: schapendonk.com/public
+          path: ${GITHUB_WORKSPACE}/schapendonk.com/public/
 
       - name: Deploy to GitHub Pages
         id: deployment
